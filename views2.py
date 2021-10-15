@@ -1,7 +1,4 @@
 from django.shortcuts import render
-
-# Create your views here.
-
 import re
 import random
 
@@ -10,23 +7,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    # return HttpResponse('Success!')
     return render(request, 'start_page.html')
 
 def articles(request):
-    # return HttpResponse('Article Success!')
     return render(request, 'articles.html')
 
 def archive(request):
-    # return HttpResponse('Archive Success!')
     return render(request, 'archive.html')
 
 def users(request):
-    # return HttpResponse('Users Success!')
     return render(request, 'users.html')
 
 def article_uniq(request, article_id, name=''):
-    # return HttpResponse('Article {} Success! {}'.format(article_id, name if name else ''))
     data = {'article_id': article_id, 'name': name}
     return render(request, 'article-number.html', {
         'check': article_id % 2,
