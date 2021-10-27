@@ -1,0 +1,53 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.infoline {
+    background: #F60D0D;
+    padding: 0;
+    margin-bottom: -8px;
+    text-align: center;
+}
+
+.info2 {
+    text-align: center;
+}
+
+.rate {
+    text-align: center;
+}
+
+.rate > article img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#comm1 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm2 {
+    width: 350px;
+    word-break: break-all;
+}
+
+#comm3 {
+    width: 350px;
+    word-break: break-all;
+}
+
+.end {
+    background: #0954E1;
+    text-align: center;
+}
+
+.end > h2 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+}
